@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useContext } from "react";
 import * as style from "./styles";
-
+import making from '../../image/making.gif'
 import Button from "../Button/Button";
 
 function Detail2() {
@@ -9,7 +9,9 @@ function Detail2() {
   return (
     <style.Content>
         <style.ContentLeft>
-            
+            <style.ImageContainer>
+              <style.gif src={making}/>
+            </style.ImageContainer>
         </style.ContentLeft>
 
         <style.ContentRight>

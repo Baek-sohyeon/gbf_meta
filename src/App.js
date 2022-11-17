@@ -3,12 +3,15 @@ import React, { useEffect, useContext } from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import { Home } from './pages';
 import Footer from "./components/Footer/Footer";
+import Portfolio from "./pages/Portfolio/Portfolio";
+
 function App() {
   return (
     <Router>
       <HeaderContainer/>
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/portfolio" element={<Portfolio />} />
       </Routes>
       <Footer/>
     </Router>

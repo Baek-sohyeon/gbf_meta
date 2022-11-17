@@ -7,6 +7,7 @@ import TypeWriter from "../../components/TypeWriter/TypeWriter";
 import Service from "../../components/Service/Service";
 import Detail2 from "../../components/Detail2/Detail2";
 import ClientPartners from "../../components/ClientPartners/ClientPartners";
+import Card from "../../components/Team/Card";
 
 function Home() {
 

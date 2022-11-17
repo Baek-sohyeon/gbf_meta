@@ -3,11 +3,12 @@ import styled from "styled-components";
 
 export const Content = styled.div`
     background-color : rgba(244,246,247,1);
-    padding: 6rem 6rem;
+    padding: 0rem 6rem;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
+    overflow: hidden;
     @media (max-width: 64em){
         padding: 2rem 3rem;
         align-items: center;
@@ -18,6 +19,7 @@ export const row = styled.div`
     flex-direction: row;
     align-self: center;
     justify-content: space-around;
+    margin-bottom: 20px
 
     
 `;

@@ -23,8 +23,8 @@ export const ContentRight = styled.div`
 `;
 
 export const text1 = styled.p`
-  font-size: 3.5rem;
-  font-weight: 600;
+  font-size: 3rem;
+  font-weight: bold;
   color: rgba(255,153,0,1);
   margin: 0px 5px;
   white-space: nowrap;
@@ -52,8 +52,21 @@ export const row = styled.div`
 export const ImageContainer = styled.div`
     display: flex;
     flex-direction: row;
+    margin-right: 50px;
+    @media (max-width: 64em){
+        width: 100%;
+        margin-bottom: 20px;
+    }
 `;
 
+export const gif = styled.img`
+    display: flex;
+    flex-direction: row;
+    width: 500px;
+     @media (max-width: 64em){
+        width: 100%;
+    }
+`;
 
 export const buttonContainer = styled.div`
     display: flex;

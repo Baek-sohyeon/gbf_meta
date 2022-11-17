@@ -19,6 +19,7 @@ import image15 from '../../image/n_45@2x.png';
 import image16 from '../../image/n_46@2x.png';
 import image17 from '../../image/n_47@2x.png';
 import image18 from '../../image/hanmapo.png';
+import Team from "../Team/Team";
 
 
 
@@ -27,6 +28,15 @@ function ClientPartners() {
 
   return (
      <style.Content>
+        <style.column>
+            <style.column  style={{marginTop:'15px'}}>
+                <style.row>
+                    <style.text1>GBF META </style.text1>
+                    <style.text2>TEAM</style.text2>
+                </style.row>
+                <Team/>
+            </style.column>
+        </style.column>
         <style.column>
             <style.row>
                 <style.text1>GBF META </style.text1>
