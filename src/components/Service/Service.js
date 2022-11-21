@@ -4,6 +4,7 @@ import * as style from "./styles";
 import Minecraft from '../../image/minecraft.png';
 import Unity from '../../image/unity.png';
 import Sandbox from '../../image/sandbox.png';
+import Prize from "../Prize/Prize";
 
 function Service() {
   
@@ -32,6 +33,7 @@ function Service() {
                     <ServiceCard english={'Minecraft'} korean={'마인크래프트'} image={Minecraft} content={card1}/>
                 </style.row>
             </style.enter>
+            <Prize/>
         </style.column>
        
     </style.Content>
