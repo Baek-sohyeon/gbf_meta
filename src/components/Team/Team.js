@@ -16,10 +16,10 @@ const Team = () => {
         grabCursor={true}
         centeredSlides={true}
         slidesPerView={"auto"}
-        //  autoplay={{
-        //             display: 2000,
-        //             disableOnInteraction:false,
-        //         }}
+         autoplay={{
+                    display: 2000,
+                    disableOnInteraction:false,
+                }}
         coverflowEffect={{
           rotate: 50,
           stretch: 3,
@@ -28,7 +28,7 @@ const Team = () => {
           slideShadows: true,
         }}
         // pagination={true}
-        modules={[EffectCoverflow]}
+        modules={[EffectCoverflow, Autoplay]}
         className="mySwiper"
       >
       {/* <Card/> */}

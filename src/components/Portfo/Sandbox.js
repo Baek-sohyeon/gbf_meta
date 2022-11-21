@@ -51,6 +51,7 @@ const Sandbox = (props) => {
 
     const click = () => {
         props.setData(!props.data);
+        console.log('sandbox')
     }
 
   return (
@@ -70,13 +71,43 @@ const Sandbox = (props) => {
         className="mySwiper2"
       >
         <SwiperSlide>
-          <Image src="https://swiperjs.com/demos/images/nature-1.jpg" />
+          <Image src={require('../../image/portfolio/sandbox/1.jpg')}/>
         </SwiperSlide>
         <SwiperSlide>
-          <Image src="https://swiperjs.com/demos/images/nature-2.jpg" />
+          <Image src={require('../../image/portfolio/sandbox//1.png')}/>
         </SwiperSlide>
         <SwiperSlide>
-          <Image src="https://swiperjs.com/demos/images/nature-3.jpg" />
+          <Image src={require('../../image/portfolio/sandbox/13.png')}/>
+        </SwiperSlide>
+        <SwiperSlide>
+          <Image src={require('../../image/portfolio/sandbox/17.png')}/>
+        </SwiperSlide>
+        <SwiperSlide>
+          <Image src={require('../../image/portfolio/sandbox/2.jpg')}/>
+        </SwiperSlide>
+        <SwiperSlide>
+          <Image src={require('../../image/portfolio/sandbox/2.png')}/>
+        </SwiperSlide>
+        <SwiperSlide>
+          <Image src={require('../../image/portfolio/sandbox/20200130_152002.png')}/>
+        </SwiperSlide>
+        <SwiperSlide>
+          <Image src={require('../../image/portfolio/sandbox/20200130_152134.png')}/>
+        </SwiperSlide>
+        <SwiperSlide>
+          <Image src={require('../../image/portfolio/sandbox/20200130_152325.png')}/>
+        </SwiperSlide>
+        <SwiperSlide>
+          <Image src={require('../../image/portfolio/sandbox/20200130_152448.png')}/>
+        </SwiperSlide>
+        <SwiperSlide>
+          <Image src={require('../../image/portfolio/sandbox/3.png')}/>
+        </SwiperSlide>
+        <SwiperSlide>
+          <Image src={require('../../image/portfolio/sandbox/4.png')}/>
+        </SwiperSlide>
+        <SwiperSlide>
+          <Image src={require('../../image/portfolio/sandbox/9.png')}/>
         </SwiperSlide>
         
       </Swiper>

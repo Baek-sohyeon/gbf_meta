@@ -51,6 +51,8 @@ const Minecraft = (props) => {
 
     const click = () => {
         props.setData(!props.data);
+        console.log('minecraft')
+
     }
 
   return (
@@ -70,15 +72,35 @@ const Minecraft = (props) => {
         className="mySwiper2"
       >
         <SwiperSlide>
-          <Image src="https://swiperjs.com/demos/images/nature-1.jpg" />
+          <Image src={require('../../image/portfolio/minecraft/RTX참여작.png')}/>
         </SwiperSlide>
         <SwiperSlide>
-          <Image src="https://swiperjs.com/demos/images/nature-2.jpg" />
+          <Image src={require('../../image/portfolio/minecraft/디코기차.png')}/>
         </SwiperSlide>
         <SwiperSlide>
-          <Image src="https://swiperjs.com/demos/images/nature-3.jpg" />
+          <Image src={require('../../image/portfolio/minecraft/부동산렌더링사진.jpg')}/>
         </SwiperSlide>
-        
+        <SwiperSlide>
+          <Image src={require('../../image/portfolio/minecraft/부동산렌더링사진2.jpg')}/>
+        </SwiperSlide>
+        <SwiperSlide>
+          <Image src={require('../../image/portfolio/minecraft/아티스트코리아 합작.jpg')}/>
+        </SwiperSlide>
+        <SwiperSlide>
+          <Image src={require('../../image/portfolio/minecraft/인천1945시장.png')}/>
+        </SwiperSlide>
+        <SwiperSlide>
+          <Image src={require('../../image/portfolio/minecraft/인천1945학교.png')}/>
+        </SwiperSlide>
+        <SwiperSlide>
+          <Image src={require('../../image/portfolio/minecraft/인천로봇랜드.png')}/>
+        </SwiperSlide>
+        <SwiperSlide>
+          <Image src={require('../../image/portfolio/minecraft/인천로봇랜드2.png')}/>
+        </SwiperSlide>
+        <SwiperSlide>
+          <Image src={require('../../image/portfolio/minecraft/인천크래프트-IP-1.jpg')}/>
+        </SwiperSlide>
       </Swiper>
     </Content>
     </>

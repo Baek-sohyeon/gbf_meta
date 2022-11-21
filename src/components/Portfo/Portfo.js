@@ -12,7 +12,7 @@ function Portfo() {
 
     const clickSand = () => {
         console.log(1)
-        setMine(!mine)
+        setSand(!sand)
     }
 
     const clickMine = () => {
