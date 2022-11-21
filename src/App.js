@@ -1,6 +1,6 @@
 import HeaderContainer from "./container/headerContainer";
 import React, { useEffect, useContext } from "react";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { HashRouter as Router, Route, Routes } from "react-router-dom";
 import { Home } from './pages';
 import Footer from "./components/Footer/Footer";
 import Portfolio from "./pages/Portfolio/Portfolio";
@@ -10,7 +10,7 @@ function App() {
     <Router>
       <HeaderContainer/>
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route exact path="/" element={<Home />} />
         <Route path="/portfolio" element={<Portfolio />} />
       </Routes>
       <Footer/>
