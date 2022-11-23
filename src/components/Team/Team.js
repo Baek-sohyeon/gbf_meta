@@ -28,12 +28,16 @@ const Team = () => {
           slideShadows: true,
         }}
         // pagination={true}
-        modules={[EffectCoverflow, Autoplay]}
+        modules={[EffectCoverflow]}
         className="mySwiper"
       >
       {/* <Card/> */}
         <SwiperSlide>
-            <Card image={require('../../image/member/딜로이트.png')}/>
+            <Card 
+                image={require('../../image/member/딜로이트.png')}
+                grade={'사업부 - 직급'}
+                name={'이름'}
+                />
         </SwiperSlide>
         <SwiperSlide>
             <Card image={require("../../image/member/멤버-디코.png")}/>

@@ -56,7 +56,7 @@ const [click, setClick] = useState(false)
 
     <style.menuRight>
         
-        <Button name={'CONTACT US'} color={'rgba(255,153,0,1)'} background={'transparent'} />
+        <Button name={'CONTACT US'} color={'rgba(255,153,0,1)'} background={'transparent'}/>
     </style.menuRight>
       
     </style.Header>

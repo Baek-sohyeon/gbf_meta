@@ -16,6 +16,10 @@ const ImageContainer = styled.div`
         width: 120px;
         height: 120px;
     }
+  @media (max-width: 18em){
+    width: 100px;
+    height: 100px;
+   }
 
 `;
 
@@ -24,7 +28,9 @@ const Container = styled.img`
   @media (max-width: 32em){
         width: 50px;
     }
+
 `;
+
 
 const Title = styled.p`
   font-size: 18px;
@@ -32,8 +38,10 @@ const Title = styled.p`
   font-weight: bold;
    @media (max-width: 32em){
         font-size: 14px;
-
     }
+  @media (max-width: 18em){
+        font-size: 12px;
+  }
 `;
 
 const Content = styled.p`
@@ -42,7 +50,9 @@ const Content = styled.p`
     @media (max-width: 32em){
         font-size: 5px;
         padding: 0px 10px
-
+    }
+    @media (max-width: 18em){
+        font-size: 3px;
     }
     
 `;
@@ -55,6 +65,10 @@ const IconImage = styled.img`
         width: 50px;
         height: 50px;
     }
+  @media (max-width: 18em){
+      width: 30px;
+      height: 30px;
+  }
 `;
 
 

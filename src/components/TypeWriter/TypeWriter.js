@@ -2,10 +2,12 @@ import React from 'react'
 import Typewriter from 'typewriter-effect';
 import * as style from "./styles";
 
+
 const TypeWriter = () => {
     return(
         <style.content>
          <Typewriter
+         options={{autoStart: true, loop: true}}
             onInit={(typewriter) => {
             typewriter.typeString('One and only place for you')
             .callFunction(() => {

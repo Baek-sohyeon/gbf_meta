@@ -20,7 +20,10 @@ export const row = styled.div`
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    ${'' /* white-space: nowrap; */}
+    @media (max-width: 32em){
+        flex-direction: column;
+        margin-bottom: 10px;
+    }
 
     
 `;

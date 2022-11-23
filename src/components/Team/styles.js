@@ -2,18 +2,30 @@ import styled from "styled-components";
 
 export const Content = styled.div`
     width: 200px;
-    height: 300px;
+    ${'' /* height: 300px; */}
     margin-top: 100px;
     left: -50px;
+    ${'' /* @media (max-width: 18em){
+        width: 100px;
+        height: 200px;
+    } */}
 
     .swiper{
         width: 200px;
         height: 200px;
         overflow: visible;
         background: transparent;
+        ${'' /* @media (max-width: 18em){
+            width: 100px;
+            height: 100px;
+        } */}
     }
     .swiper-wrapper{
-        left: 30%;
+        left:30%;
+        @media (max-width: 18em){
+            left: 10%;
+        }
+
     }
 
 
@@ -21,10 +33,14 @@ export const Content = styled.div`
         width: 250px;
         height: 350px;
         top:-100px;
-        margin: 20px;
+        margin: 20px; 
         border-radius: 22px;
         box-shadow: 0 1px 4px rgb(0 0 0 / 30%), 0 0 40px rgb(0 0 0 / 10%) inset;
-
+        @media (max-width: 18em){
+            width: 200px;
+            height: 250px;
+            margin: 20px;
+        }
     }
     .swiper-slide-active:before,
     .swiper-slide-active:after{

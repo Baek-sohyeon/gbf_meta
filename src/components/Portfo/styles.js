@@ -48,6 +48,9 @@ export const text1 = styled.p`
     color:  rgba(28,28,28,1);
     margin: 2px;
     white-space: nowrap;
+    @media (max-width: 18em){
+        font-size: 22px;
+   }
 `;
 
 export const text2 = styled.p`
@@ -56,5 +59,8 @@ export const text2 = styled.p`
     color: rgba(255,153,0,1);
     margin: 2px;
     white-space: nowrap;
+    @media (max-width: 18em){
+        font-size: 22px;
+   }
 
 `;

@@ -59,6 +59,7 @@ export const text1 = styled.p`
   @media (max-width: 64em){
     font-size: 32px;
    }
+
 `;
 
 export const text2 = styled.p`

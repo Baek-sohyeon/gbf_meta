@@ -28,8 +28,8 @@ function ClientPartners() {
 
   return (
      <style.Content>
-        <style.column>
-            <style.column  style={{marginTop:'15px'}}>
+        <style.column style={{marginTop:'80px'}}>
+            <style.column>
                 <style.row>
                     <style.text1>GBF META </style.text1>
                     <style.text2>TEAM</style.text2>
@@ -37,7 +37,7 @@ function ClientPartners() {
                 <Team/>
             </style.column>
         </style.column>
-        <style.column>
+        <style.client>
             <style.row>
                 <style.text1>GBF META </style.text1>
                 <style.text2>Client</style.text2>
@@ -62,9 +62,9 @@ function ClientPartners() {
                     <Box name={image10}/>
                 </style.row>
             </style.enter>
-        </style.column>
+        </style.client>
 
-        <style.column>
+        <style.column  style={{marginTop:'60px', marginBottom:'80px'}}>
             <style.row>
                 <style.text1>GBF META </style.text1>
                 <style.text2>Partners</style.text2>

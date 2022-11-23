@@ -30,6 +30,9 @@ export const LogoContainer = styled.div`
   display: flex;
   flex-direction: row;
   width: 200px;
+  @media (max-width: 18em){
+      width: 100px;
+  }
   
 `;
 
@@ -67,6 +70,7 @@ export const Menu = styled.div`
     justify-content: center;
 
   }
+
 `;
 
 export const menuRight = styled.div`
@@ -100,6 +104,9 @@ export const MenuBtn = styled.button`
 
   @media (max-width: 64em){
     margin: 1rem 0;
+  }
+  &:hover {
+    color: rgba(255,153,0,1);
   }
 `;
 

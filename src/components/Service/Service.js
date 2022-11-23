@@ -19,7 +19,7 @@ function Service() {
   return (
     <style.Content>
         <style.column>
-            <style.row>
+            <style.row style={{flexDirection: 'row', marginBottom: '20px'}}>
                 <style.text1>Our</style.text1>
                 <style.text2>Service</style.text2>
             </style.row>

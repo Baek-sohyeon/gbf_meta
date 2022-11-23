@@ -55,6 +55,11 @@ export const content = styled.p`
     @media (max-width: 32em){
         width: 150px;
     }
+     @media (max-width: 18em){
+        font-size: 10px;
+        width: 100px;
+    }
+
 `;
 
 export const title = styled.p`
@@ -66,11 +71,18 @@ export const title = styled.p`
     @media (max-width: 32em){
         font-size: 14px;
     }
+    @media (max-width: 18em){
+        font-size: 12px;
+    }
 
 `;
 
 export const prize = styled.img`
 width: 150px;
+ @media (max-width: 18em){
+    width: 100px;
+}
+
     ${'' /* font-size: 28px;
     font-weight: bold;
     color: rgba(255,153,0,1);

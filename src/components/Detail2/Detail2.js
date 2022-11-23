@@ -26,7 +26,7 @@ function Detail2() {
                 메타버스에 대한 깊은 지식을 갖추고 있는 실무진이 투입됩니다.
             </style.explain>
             <style.buttonContainer>
-                <Button name={'자세히 알아보기'} background={'rgba(255,153,0,1)'}/>
+                <Button name={'자세히 알아보기'} background={'rgba(255,153,0,1)'} style={{marginRight: '10px'}}/>
                 <Button name={'문의하기'} color={'rgba(255,153,0,1)'} background={'transparent'}/>
             </style.buttonContainer>
 

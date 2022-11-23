@@ -26,9 +26,15 @@ export const Content = styled.div`
         padding: 2rem 3rem;
         align-items: center;
     }
+
+
 `
 
 export const ContentLeft = styled.div`
+    width: 100px;
+    @media (max-width: 18em){
+        ${'' /* width: 14em; */}
+    }
     ${'' /* width: 50%; */}
     ${'' /* margin-right: 20px */}
 
@@ -75,6 +81,7 @@ export const ImageContainer = styled.div`
     @media (max-width: 64em){
         width: 150px;
     }
+
 `;
 
 export const RoundImage = styled.img`

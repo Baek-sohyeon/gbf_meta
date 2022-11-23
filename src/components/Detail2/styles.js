@@ -12,6 +12,9 @@ export const Content = styled.div`
     padding: 2rem 3rem;
     align-items: center;
     }
+    @media (max-width: 18em){
+    padding: 1rem 1rem;
+    }
 `
 
 export const ContentLeft = styled.div`
@@ -20,6 +23,9 @@ export const ContentLeft = styled.div`
 `;
 
 export const ContentRight = styled.div`
+    @media (max-width: 18em){
+    width: 230px;
+    }
 `;
 
 export const text1 = styled.p`
@@ -28,6 +34,10 @@ export const text1 = styled.p`
   color: rgba(255,153,0,1);
   margin: 0px 5px;
   white-space: nowrap;
+  @media (max-width: 18em){
+    font-size:2rem;
+}
+
 `;
 
 export const textTop = styled.p`

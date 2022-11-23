@@ -15,6 +15,11 @@ const ImageContainer = styled.div`
         width: 65px;
         height: 65px;
     }
+  @media (max-width: 18em){
+    width:50px;
+    height:50px;
+    margin:5px;
+  }
 
 `;
 
@@ -23,6 +28,9 @@ const Container = styled.img`
   @media (max-width: 32em){
         width: 50px;
     }
+  @media (max-width: 18em){
+    width:35px;
+  }
 `;
 
 

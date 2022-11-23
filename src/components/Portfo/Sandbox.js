@@ -37,13 +37,15 @@ const Content = styled.div`
 const Image = styled.img`
     width: 600px;
     height: 400px;
-
+  @media (max-width: 32em){
+      width: 100%;
+  }
 `
 
 const Exit = styled.img`
    position: absolute;
-   top:0;
-   right: 0;
+   top:10px;
+   right: 20px;
    padding: 10px;
 
 `
@@ -57,7 +59,7 @@ const Sandbox = (props) => {
   return (
     <>
     <Content>
-        <div style = {{position:"absolute", top:0, right:0 }} onClick={click}>
+        <div style = {{position:"absolute", top:'10px', right:'20px' }} onClick={click}>
             <img src={require('../../image/x.png')}/>
         </div>
         <Swiper

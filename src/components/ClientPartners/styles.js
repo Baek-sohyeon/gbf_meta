@@ -9,10 +9,10 @@ export const Content = styled.div`
     align-items: center;
     justify-content: space-around;
     overflow: hidden;
-    @media (max-width: 64em){
+    ${'' /* @media (max-width: 64em){
         padding: 2rem 3rem;
         align-items: center;
-    }
+    } */}
 `
 export const row = styled.div`
     display: flex;
@@ -37,7 +37,17 @@ export const column = styled.div`
     display: flex;
     flex-direction: column;
     align-items: start;
-    margin-top: 30px;
+
+`;
+
+export const client = styled.div`
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-top: 160px;
+    @media (max-width: 18em){
+        margin-top :40px;
+  }
 `;
 
 export const text1 = styled.p`
@@ -46,6 +56,9 @@ export const text1 = styled.p`
     color: rgba(106,106,106,1);
     margin: 2px;
     white-space: nowrap;
+    @media (max-width: 18em){
+    font-size:20px;
+  }
 `;
 
 export const text2 = styled.p`
@@ -54,5 +67,7 @@ export const text2 = styled.p`
     color: rgba(255,153,0,1);
     margin: 2px;
     white-space: nowrap;
-
+    @media (max-width: 18em){
+    font-size:20px;
+  }
 `;

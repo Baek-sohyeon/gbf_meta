@@ -7,16 +7,20 @@ const Card = styled.div`
   background: rgba(255,255,255,1);
   width: 180px;
   height: 250px;
-  max-width: 220px;
   padding: 20px;
   border-radius: 12px;
   margin: 10px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  @media (max-width: 32em){
-        width: 120px;
-        height: 200px;
+  @media (max-width: 64em){
+        width: 200px;
+        height: 250px;
+    }
+   @media (max-width: 32em){
+      padding: 20px;
+      width: 13em;
+      height: 170px;
     }
 `;
 
