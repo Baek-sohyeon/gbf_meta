@@ -36,19 +36,39 @@ const [click, setClick] = useState(false)
      
       <style.Menu click={click}>
 
-        <style.MenuBtn onClick={() => navigator("/")}>
+        <style.MenuBtn onClick={() =>{
+            navigator("/")
+            setClick(!click)
+            }
+        }>
             Home
         </style.MenuBtn>
-        <style.MenuBtn onClick={() => navigator("/portfolio")}>
+        <style.MenuBtn onClick={() => {
+            navigator("/portfolio")
+            setClick(!click)
+            }
+        }>
             Portfolio
         </style.MenuBtn>
-        <style.MenuBtn onClick={() => navigator("/shop")}>
+        <style.MenuBtn onClick={() => {
+            navigator("/shop")
+            setClick(!click)
+            }
+        }>
             Shop
         </style.MenuBtn>
-        <style.MenuBtn onClick={() => navigator("/education")}>
+        <style.MenuBtn onClick={() => {
+            navigator("/education")
+            setClick(!click)
+            }
+        }>
             Education
         </style.MenuBtn>
-        <style.MenuBtn onClick={() => navigator("/faqs")}>
+        <style.MenuBtn onClick={() => {
+            navigator("/faqs")
+            setClick(!click)
+            }
+        }>
             FAQs
         </style.MenuBtn>
         <SnsGroup/>

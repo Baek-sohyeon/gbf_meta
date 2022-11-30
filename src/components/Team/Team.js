@@ -40,13 +40,25 @@ const Team = () => {
                 />
         </SwiperSlide>
         <SwiperSlide>
-            <Card image={require("../../image/member/멤버-디코.png")}/>
+            <Card 
+                image={require("../../image/member/멤버-디코.png")}
+                grade={'사업부 - 직급'}
+                name={'이름'}   
+            />
         </SwiperSlide>
         <SwiperSlide>
-            <Card image={require("../../image/member/서승완.png")}/>
+            <Card
+                image={require("../../image/member/서승완.png")}
+                grade={'사업부 - 직급'}
+                name={'이름'}   
+            />
         </SwiperSlide>
          <SwiperSlide>
-            <Card image={require("../../image/member/신준.png")}/>
+            <Card
+                image={require("../../image/member/신준.png")}
+                grade={'사업부 - 직급'}
+                name={'이름'}   
+            />
         </SwiperSlide>
         <SwiperSlide>
             <Card image={require("../../image/member/아빠.png")}/>

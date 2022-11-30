@@ -4,6 +4,7 @@ import styled from "styled-components";
 const ContactButton = styled.div`
   width: 80px;
   height: 12px;
+  white-space: nowrap;
   padding: 8px 10px;
  text-align: center;
   &:hover {
