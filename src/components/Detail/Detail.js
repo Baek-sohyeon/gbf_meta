@@ -4,9 +4,9 @@ import { Swiper, SwiperSlide } from "swiper/react";
 
 import { EffectCards, Autoplay } from "swiper";
 
-import image1 from '../../image/n_3@2x.png';
-import image2 from '../../image/n_4_ey@2x.png';
-import image3 from '../../image/n_5_ez@2x.png';
+import image1 from '../../components/assets/image/n_3@2x.png';
+import image2 from '../../components/assets/image/n_4_ey@2x.png';
+import image3 from '../../components/assets/image/n_5_ez@2x.png';
 import Button from "../Button/Button";
 
 function Detail() {

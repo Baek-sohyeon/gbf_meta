@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useContext } from "react";
 import * as style from "./styles";
-import making from '../../image/making.gif'
+import making from '../../components/assets/image/making.gif'
 import Button from "../Button/Button";
 
 function Detail2() {

@@ -1,10 +1,10 @@
 import React, { useState, useEffect, useContext } from "react";
 import * as style from "./styles";
 
-import image1 from '../../image/prize/10.png';
-import image2 from '../../image/prize/60.png';
-import image3 from '../../image/prize/cup-g524793a03_1920.png';
-import image4 from '../../image/prize/all-in-one.png';
+import image1 from '../../components/assets/image/prize/10.png';
+import image2 from '../../components/assets/image/prize/60.png';
+import image3 from '../../components/assets/image/prize/cup-g524793a03_1920.png';
+import image4 from '../../components/assets/image/prize/all-in-one.png';
 
 function Prize() {
     const data = [

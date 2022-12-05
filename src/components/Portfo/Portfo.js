@@ -1,8 +1,8 @@
 import React, { useState, useEffect, useContext } from "react";
 import PortBox from "./PortBox";
 import * as style from "./styles";
-import minecraft from '../../image/minecraft.png';
-import sandbox from '../../image/n_41@2x.png';
+import minecraft from '../../components/assets/image/minecraft.png';
+import sandbox from '../../components/assets/image/n_41@2x.png';
 import Minecraft from "./Minecraft";
 import Sandbox from "./Sandbox";
 function Portfo() {

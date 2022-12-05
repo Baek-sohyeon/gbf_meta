@@ -1,5 +1,9 @@
 import React, { useState } from "react";
 import styled from "styled-components";
+import image from '../../components/assets/image/member/딜로이트.png'
+
+
+const Card = (props) => {
 
 const CardContainer = styled.div`
   width: 100%;
@@ -36,10 +40,11 @@ const CardImage= styled.img`
   height: 120%;
   bottom: 20%;
   transform-origin:100% 100%;
-  z-index: 2;
+  ${'' /* background-image: url(${image}); */}
+  z-index: 2
 `;
 
-export const Text1 = styled.p`
+  const Text1 = styled.p`
     font-size: 18px;
     font-weight: bold;
     color:  white;
@@ -48,7 +53,7 @@ export const Text1 = styled.p`
     text-align: center;
 `;
 
-export const Text2 = styled.p`
+  const Text2 = styled.p`
     font-size: 28px;
     font-weight: bold;
     color: rgba(255,153,0,1);
@@ -58,12 +63,12 @@ export const Text2 = styled.p`
 
 `;
 
-
-const Card = (props) => {
+  console.log(props.image)
   return (
     <CardContainer>
         <CardTop>
-            <CardImage src={props.image}/>
+          {/* <img src={require(props.image).default} alt='ss'/> */}
+            <CardImage  src={props.image}/>
         </CardTop>
         <CardBottom>
           <Text1>{props.grade}</Text1>

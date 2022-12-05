@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import styled from "styled-components";
 import Button from "../Button/Button";
-import Minecraft from '../../image/minecraft.png';
+import Minecraft from '../../components/assets/image/minecraft.png';
 
 const Card = styled.div`
   background: rgba(255,255,255,1);

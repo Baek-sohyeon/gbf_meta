@@ -61,7 +61,7 @@ const Minecraft = (props) => {
     <>
     <Content>
         <div style = {{position:"absolute", top:'10px', right:'20px' }} onClick={click}>
-            <img src={require('../../image/x.png')}/>
+            <img src={require('../../components/assets/image/x.png')}/>
         </div>
         <Swiper
         style={{
@@ -74,34 +74,34 @@ const Minecraft = (props) => {
         className="mySwiper2"
       >
         <SwiperSlide>
-          <Image src={require('../../image/portfolio/minecraft/RTX참여작.png')}/>
+          <Image src={require('../../components/assets/image/portfolio/minecraft/RTX참여작.png')}/>
         </SwiperSlide>
         <SwiperSlide>
-          <Image src={require('../../image/portfolio/minecraft/디코기차.png')}/>
+          <Image src={require('../../components/assets/image/portfolio/minecraft/디코기차.png')}/>
         </SwiperSlide>
         <SwiperSlide>
-          <Image src={require('../../image/portfolio/minecraft/부동산렌더링사진.jpg')}/>
+          <Image src={require('../../components/assets/image/portfolio/minecraft/부동산렌더링사진.jpg')}/>
         </SwiperSlide>
         <SwiperSlide>
-          <Image src={require('../../image/portfolio/minecraft/부동산렌더링사진2.jpg')}/>
+          <Image src={require('../../components/assets/image/portfolio/minecraft/부동산렌더링사진2.jpg')}/>
         </SwiperSlide>
         <SwiperSlide>
-          <Image src={require('../../image/portfolio/minecraft/아티스트코리아 합작.jpg')}/>
+          <Image src={require('../../components/assets/image/portfolio/minecraft/아티스트코리아 합작.jpg')}/>
         </SwiperSlide>
         <SwiperSlide>
-          <Image src={require('../../image/portfolio/minecraft/인천1945시장.png')}/>
+          <Image src={require('../../components/assets/image/portfolio/minecraft/인천1945시장.png')}/>
         </SwiperSlide>
         <SwiperSlide>
-          <Image src={require('../../image/portfolio/minecraft/인천1945학교.png')}/>
+          <Image src={require('../../components/assets/image/portfolio/minecraft/인천1945학교.png')}/>
         </SwiperSlide>
         <SwiperSlide>
-          <Image src={require('../../image/portfolio/minecraft/인천로봇랜드.png')}/>
+          <Image src={require('../../components/assets/image/portfolio/minecraft/인천로봇랜드.png')}/>
         </SwiperSlide>
         <SwiperSlide>
-          <Image src={require('../../image/portfolio/minecraft/인천로봇랜드2.png')}/>
+          <Image src={require('../../components/assets/image/portfolio/minecraft/인천로봇랜드2.png')}/>
         </SwiperSlide>
         <SwiperSlide>
-          <Image src={require('../../image/portfolio/minecraft/인천크래프트-IP-1.jpg')}/>
+          <Image src={require('../../components/assets/image/portfolio/minecraft/인천크래프트-IP-1.jpg')}/>
         </SwiperSlide>
       </Swiper>
     </Content>

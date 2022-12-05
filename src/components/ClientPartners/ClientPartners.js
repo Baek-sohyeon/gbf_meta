@@ -1,25 +1,26 @@
 import React, { useState, useEffect, useContext } from "react";
 import Box from "./Box";
 import * as style from "./styles";
-import image1 from '../../image/n_31@2x.png';
-import image2 from '../../image/n_32@2x.png';
-import image3 from '../../image/n_33@2x.png';
-import image4 from '../../image/n_34@2x.png';
-import image5 from '../../image/n_35@2x.png';
-import image6 from '../../image/n_36@2x.png';
-import image7 from '../../image/n_37@2x.png';
-import image8 from '../../image/na.png';
-import image9 from '../../image/n_39@2x.png';
-import image10 from '../../image/n_40@2x.png';
-import image11 from '../../image/n_41@2x.png';
-import image12 from '../../image/n_42_dx@2x.png';
-import image13 from '../../image/n_43@2x.png';
-import image14 from '../../image/n_44@2x.png';
-import image15 from '../../image/n_45@2x.png';
-import image16 from '../../image/n_46@2x.png';
-import image17 from '../../image/n_47@2x.png';
-import image18 from '../../image/hanmapo.png';
+import image1 from '../../components/assets/image/n_31@2x.png';
+import image2 from '../../components/assets/image/n_32@2x.png';
+import image3 from '../../components/assets/image/n_33@2x.png';
+import image4 from '../../components/assets/image/n_34@2x.png';
+import image5 from '../../components/assets/image/n_35@2x.png';
+import image6 from '../../components/assets/image/n_36@2x.png';
+import image7 from '../../components/assets/image/n_37@2x.png';
+import image8 from '../../components/assets/image/na.png';
+import image9 from '../../components/assets/image/n_39@2x.png';
+import image10 from '../../components/assets/image/n_40@2x.png';
+import image11 from '../../components/assets/image/n_41@2x.png';
+import image12 from '../../components/assets/image/n_42_dx@2x.png';
+import image13 from '../../components/assets/image/n_43@2x.png';
+import image14 from '../../components/assets/image/n_44@2x.png';
+import image15 from '../../components/assets/image/n_45@2x.png';
+import image16 from '../../components/assets/image/n_46@2x.png';
+import image17 from '../../components/assets/image/n_47@2x.png';
+import image18 from '../../components/assets/image/hanmapo.png';
 import Team from "../Team/Team";
+import YoutubeSlider from "../YoutubeSlider/YoutubeSlider";
 
 
 
@@ -28,7 +29,9 @@ function ClientPartners() {
 
   return (
      <style.Content>
-        <style.column style={{marginTop:'80px'}}>
+        <YoutubeSlider/>
+
+        <style.column>
             <style.column>
                 <style.row>
                     <style.text1>GBF META </style.text1>
