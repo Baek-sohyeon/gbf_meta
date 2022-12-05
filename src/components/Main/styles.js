@@ -19,7 +19,7 @@ export const row = styled.div`
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
     @media (max-width: 32em){
         flex-direction: column;
         margin-bottom: 10px;
@@ -89,7 +89,7 @@ export const text3 = styled.p`
         font-size: 14px;
     }
     @media (max-width: 32em){
-        font-size: 10px;
+        font-size: 12px;
     }
     @media (max-width: 18em){
         font-size: 4px;

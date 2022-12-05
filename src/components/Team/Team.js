@@ -28,8 +28,8 @@ const Team = () => {
           modifier: 1,
           slideShadows: true,
         }}
-        // pagination={true}
-        modules={[EffectCoverflow]}
+        pagination={true}
+        modules={[EffectCoverflow, Autoplay]}
         className="mySwiper"
       >
       {TeamList.map((event,i) => (
