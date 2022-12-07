@@ -9,7 +9,6 @@ export const Content = styled.div`
     flex-direction: column;
     align-items: start;
     justify-content: start;
-    padding: 2rem 3rem;
 
     @media (max-width: 64em){
         ${'' /* padding: 2rem 3rem; */}

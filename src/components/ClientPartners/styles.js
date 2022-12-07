@@ -13,6 +13,7 @@ export const Content = styled.div`
         align-items: center;
     } */}
 `
+
 export const row = styled.div`
     display: flex;
     flex-direction: row;

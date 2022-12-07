@@ -26,13 +26,13 @@ function Portfo() {
 
   return (
     <style.Content>
-        <style.column style={{marginTop: '30px', marginLeft: '30px'}}>
+        <style.column style={{marginTop: '50px', marginLeft: '40px'}}>
             <style.row>
                 <style.text1>GBF</style.text1>
                 <style.text2>Portfolio</style.text2>
             </style.row>
         </style.column>
-        <style.column style={{marginLeft: '30px'}}>
+        <style.column style={{marginLeft: '40px'}}>
             <style.row>
                 <div onClick={clickMine}>
                     <PortBox title={'Minecraft'} content={'MineCraft Map, MinCraft Dev'} image={minecraft}/>
