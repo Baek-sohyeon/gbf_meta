@@ -53,6 +53,7 @@ export const row = styled.div`
 export const enter = styled.div`
     display: flex;
     flex-direction: row;
+    justify-content: center;
     box-sizing: border-box;
     width: 100%;
     ${'' /* margin: 4%; */}
