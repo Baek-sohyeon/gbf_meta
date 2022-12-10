@@ -92,3 +92,23 @@ export const textArea1 = styled.textarea`
     width: 100%;
     height: 300px;
 `;
+
+export const button = styled.div`
+    width: 100%;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: rgba(255,153,0,1);
+    margin-top: 12px;
+    white-space: nowrap;
+    cursor: pointer;
+    
+    @media (max-width: 18em){
+        font-size: 12px;
+   }
+
+`;

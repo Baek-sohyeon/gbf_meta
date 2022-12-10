@@ -39,6 +39,9 @@ const TextArea = (props) => {
         borderRadius: '4px',
         resize: 'none',
         outlineColor: 'rgba(255,153,0,1)',
+        padding: '10px',
+        borderStyle: 'solid',
+        borderWidth: '1px',
     }
   return (
     <Content>
@@ -46,7 +49,7 @@ const TextArea = (props) => {
             <Div/>
             <Title>{props.title}</Title>
         </TextContainer>
-        <textarea required style={TextField}></textarea>
+        <input rows={1} required style={TextField}></input>
         {/* <TextField require></TextField> */}
     </Content>
   );

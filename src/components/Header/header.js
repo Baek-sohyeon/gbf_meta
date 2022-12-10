@@ -85,6 +85,7 @@ const [click, setClick] = useState(false)
                 background={'transparent'}
                 onClick={() => {
                     navigator("/contact")
+                    setClick(!click)
                 }}
             />
         </style.menuRight>

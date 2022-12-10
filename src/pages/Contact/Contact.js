@@ -13,6 +13,9 @@ function Contact() {
         width: '100%',
         height: '300px',
         outlineColor: 'rgba(255,153,0,1)',
+        boxSizing: 'border-box',
+        padding: '10px'
+
     }
 
 
@@ -34,11 +37,10 @@ function Contact() {
 
                         </style.enter>
                         <textarea required style={TextField} placeholder={'문의내용'}></textarea>
+                        <style.button>문의하기</style.button>                
 
                     </style.column>
                 </style.row>
-                <Button name={'문의하기'} background={'rgba(255,153,0,1)'} style={{marginRight: '10px'}}/>
-                
             </style.column>
 
     </>
